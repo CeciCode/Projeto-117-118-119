@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color: cornsilk;
+    background-color: blueviolet;
+}
+#show {
+    float: right;
+    padding: 5px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+canvas {
+    border: 5px solid pink;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes animation {
+    from {box-shadow: 1px 1px 38px blueviolet;}
+    to {box-shadow: 1px 1px 38px cyan;}
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+button {
+    background-color: blueviolet;
+    color: white;
+}
+#point {
+    font-size: 25px;
+    margin-left: 60px;
+}
+#time {
+    font-size: 25px;
+    margin-left: 60px;
+}

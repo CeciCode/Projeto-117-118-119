@@ -4,6 +4,7 @@ body {
 h1 {
     color: cornsilk;
     background-color: blueviolet;
+    padding: 10px;
 }
 #show {
     float: right;
@@ -30,6 +31,8 @@ p {
 button {
     background-color: blueviolet;
     color: white;
+    font-size: 20px;
+    border-radius: 10px;
 }
 #point {
     font-size: 25px;

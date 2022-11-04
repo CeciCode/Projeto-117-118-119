@@ -1,3 +1,8 @@
+timerCounter= 0;
+timerCheck= "";
+drawSketch= "";
+answerHolder= "";
+score= 0;
 function setup() {
     canvas= createCanvas(280, 280);
     canvas.center();
@@ -16,6 +21,13 @@ function draw() {
     stroke("black");
     if (mouseIsPressed) {
         line(pmouseX, pmouseY, mouseX, mouseY);
+    }
+}
+function checkSketch() {
+    if(drawSketch == sketch) {
+        answerHolder = "set";
+        score++;
+        document.getElementById("point").innerHTML= "Pontuação" + score;
     }
 }
 function classifyCanvas() {
